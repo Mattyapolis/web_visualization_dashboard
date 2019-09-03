@@ -1,0 +1,75 @@
+body {
+    background-color: white;
+    margin:0;
+    padding:0;
+    height:100%
+   
+
+ 
+
+}
+
+.container {
+    padding-top: 30px;
+    margin: auto;
+    
+}
+.title{
+    color: darkcyan;
+    font-size: 25px;
+    font-weight: bold
+}
+
+.compare-title{
+    color: darkcyan;
+    font-size: 22px;
+    font-weight: bold;
+
+}
+.navbar {
+    background: hsl(0, 0%, 100%);
+    font-size: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+    }
+
+.navbar-brand {
+    font-size: 25px;
+    font-family: Palatino Linotype;
+    font-weight: bold;
+    color: #33cccc
+}
+
+
+p{
+    color: #6D8092;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+}
+
+.table{
+    font-size: 15px;
+
+}
+
+@media (max-width: 480px) {
+
+    .navbar-expand-lg {
+        background-color: #003366 !important;
+    }
+    .navbar li {
+        padding:10x;
+    }
+
+    button {
+        position: absolute;
+        right: 10px;
+    }
+
+  
+
+    
+}
+
+
+
